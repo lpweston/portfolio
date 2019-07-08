@@ -1,0 +1,14 @@
+<body>
+  <div>
+    <h1>Laura Weston</h1>
+  </div>
+  <div>
+    <h2>Professional Summery</h2>
+    <p>I'm a Chemistry PhD graduate, with experience working as a product development chemist.</p>
+    <p>My first experience with programming was during my PhD: Adapting some Fortran 90 code to implement some new features into a program and developing a different program in Python to carry out calculations and produce graphs.</p>
+    <p>Recently, and with the help of my mentor, I have been reflecting on my career and remembering how much I enjoyed that work. Further, looking into companies and jobs relating to software development work I believe I would find a career in this area both fulfilling and rewarding.</p>
+    <p>I’m particularly interested in companies that want to solve problems and make the world a better place. This was what led me to study science in the first place, however increasingly I think I would be more able to contribute to society as a software developer than as a chemist.</p>
+    <p>My aspiration is to work as a software developer at a company where my work will help people, my initial search suggests that there are a large range of places that could fit this bill. I could stay in a scientific field, developing software to assist research. Or look into broader ways to contribute; in particular I’ve been talking with ThoughtWorks, who are interested in using technology as a tool for social change. I am very interested in working with ThoughtWorks, and it was they who suggested your course.
+    </p>
+  </div>
+</body>
