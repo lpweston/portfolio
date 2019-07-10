@@ -1,11 +1,14 @@
+<!DOCTYPE html>
+<html>
 <head>
   <div>
     <h1>Laura Weston</h1>
+    <a href="#footer">Jump to Bottom</a>
   </div>
 </head>
 <body>
   <img src='images/lweston-headshot.jpeg' alt="Laura Weston Headshot">
-  <div>
+  <div id="prof-summery">
     <h2>Professional Summery</h2>
     <p>I'm a Chemistry PhD graduate, with experience working as a product development chemist.</p>
     <p>My first experience with programming was during my PhD: Adapting some Fortran 90 code to implement some new features into a program and developing a different program in Python to carry out calculations and produce graphs.</p>
@@ -14,7 +17,23 @@
     <p>My aspiration is to work as a software developer at a company where my work will help people, my initial search suggests that there are a large range of places that could fit this bill. I could stay in a scientific field, developing software to assist research. Or look into broader ways to contribute; in particular I’ve been talking with ThoughtWorks, who are interested in using technology as a tool for social change. I am very interested in working with ThoughtWorks, and it was they who suggested your course.
     </p>
   </div>
+  <div id="publications">
+    <h2>Publications</h2>
+    <ul>
+      <li>Computational Characterisation of Organic Molecules for Electronic Applications and an Experimental Study of Cocrystals for Electronic Devices</li>
+      <li>Thallophilic Tl(I)–Tl(I) contacts mediated by Tl–aryl interactions. A computational study</li>
+      <li>An orthogonal C–H borylation – cross-coupling strategy for the preparation of tetrasubstituted “A2B2”-chrysene derivatives with tuneable photophysical properties</li>
+    </ul>
+  </div>
+  <div id="contact">
+    <form action="/submit-comment">
+    <input type="text" placeholder="name" required>
+    <input type="text" placeholder="comment" required><button type="submit">Submit</button>
+  </form>
+  </div>
 </body>
-<footer>
-  <a href="https://twitter.com/Mivena">Twitter</a>
+<footer id="footer">
+  <a href="https://twitter.com/Mivena" target="_blank">Twitter</a>
+  <a href="https://www.linkedin.com/in/lwestonuk/" target="_blank">Linkedin</a>
 </footer>
+</html>
