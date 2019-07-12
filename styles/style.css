@@ -4,5 +4,12 @@ h1{
 }
 
 p {
-  color: red;
+  color: grey;
 }
+
+.thick-black-border {
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 75%;
+  }
