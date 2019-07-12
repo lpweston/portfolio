@@ -1,11 +1,15 @@
+body {
+  background-color: black;
+}
 
 .box {
     border-style: solid;
-    border-color: black;
+    border-color: grey;
     border-width: 5px;
     text-align: center;
     background-color: white;
     padding: 10px;
+    magin: 10px
 }
 
 h1{
