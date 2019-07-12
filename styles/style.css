@@ -9,7 +9,7 @@ body {
     text-align: center;
     background-color: white;
     padding: 10px;
-    magin: 10px
+    magin: 20px
 }
 
 h1{
@@ -20,9 +20,10 @@ p {
   color: grey;
 }
 
-.thick-black-border {
-    border-color: black;
+.thick-grey-border {
+    border-color: grey;
     border-width: 10px;
     border-style: solid;
     border-radius: 75%;
+    padding: 20px;
   }
