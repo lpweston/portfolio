@@ -1,4 +1,13 @@
 
+.box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
 h1{
     font-family: 'Lustria', serif;
 }
