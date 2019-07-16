@@ -4,26 +4,38 @@ body {
 
 .box {
     border-style: solid;
-    border-color: grey;
+    border-color: hsl(180, 80%, 25%);
     border-width: 5px;
-    text-align: center;
-    background-color: white;
+    background-color: hsl(180, 20%, 60%);
     padding: 10px;
-    magin: 20px
+    margin: 20px;
 }
 
 h1{
     font-family: 'Lustria', serif;
+    text-align: center;
 }
 
 p {
-  color: grey;
+  color: black;
+  text-align: justify
 }
 
-.thick-grey-border {
-    border-color: grey;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 75%;
-    padding: 20px;
-  }
+#buffer {
+  height: 150px;
+}
+#header {
+  position:fixed;
+  width: 93.3%;
+  text-align: center;
+}
+
+#photo {
+  width: 30%;
+  float:left;
+  border-color: hsl(180, 80%, 25%);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10%;
+  margin: 20px;
+}
