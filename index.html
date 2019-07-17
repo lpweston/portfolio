@@ -6,8 +6,9 @@
   <title>L Weston Portfolio</title>
 </head>
 <body>
-  <div id="header" class="box">
+  <header>
     <h1>Laura Weston</h1>
+    <nav>
     <a href="#prof-summary">Professional Summary</a>
     <a href="#interests">Interests</a>
     <a href="#skills">Skills</a>
@@ -16,7 +17,8 @@
     <a href="#experience">Experience</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
-  </div>
+      </nav>
+  </header>
   <div id="buffer"></div>
   <img id="photo" src='images/laura_weston.jpg' alt="Laura Weston Headshot" width=30%>
   <div id="prof-summary" class="box">
@@ -61,10 +63,12 @@
       <p>add my education and stuff here.
   </div>
   <div id="contact" class="box">
+    <h2>Contact</h2>
     <form action="/submit-comment">
-    <input type="text" placeholder="name" required>
-    <input type="text" placeholder="email" required>
-    <input type="text" placeholder="comment" required><button type="submit">Submit</button>
+    <label for="name">Name:</label><input type="text" placeholder="name" required>
+    <label for="email">Email:</label><input type="text" placeholder="email" required>
+    <label for="message">Message:</label><input type="text" placeholder="message" required width="60%">
+    <button type="submit">Submit</button>
   </form>
   <a href="https://twitter.com/Mivena" target="_blank">Twitter</a>
   <a href="https://www.linkedin.com/in/lwestonuk/" target="_blank">Linkedin</a>
