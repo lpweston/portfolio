@@ -2,6 +2,14 @@ body {
   background-color: black;
 }
 
+header {
+  position:fixed;
+  width: 100%;
+  top:0px;
+  text-align: center;
+  background-color: hsl(180, 20%, 60%);
+}
+
 .box {
     border-style: solid;
     border-color: hsl(180, 80%, 25%);
@@ -23,11 +31,6 @@ p {
 
 #buffer {
   height: 150px;
-}
-#header {
-  position:fixed;
-  width: 93.3%;
-  text-align: center;
 }
 
 #photo {
