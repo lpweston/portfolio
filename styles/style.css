@@ -42,3 +42,16 @@ p {
   border-radius: 10%;
   margin: 20px;
 }
+
+@media (max-width: 800px) { 
+    p {
+      font-size: 10px;
+      width: 75vmin;
+  }
+    }
+    img{
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+  }
