@@ -6,14 +6,26 @@ header {
   position:fixed;
   width: 100%;
   top:0px;
+  right: 0px;
+  padding: 15px;
   text-align: center;
   background-color: hsl(180, 20%, 60%);
+}
+
+main {
+  margin-top: 150px;  
+}
+
+#box_1 {
+  display: flex;
+  flex-direction: column;
 }
 
 .box {
     border-style: solid;
     border-color: hsl(180, 80%, 25%);
     border-width: 5px;
+    border-radius: 5%;
     background-color: hsl(180, 20%, 60%);
     padding: 10px;
     margin: 20px;
@@ -29,15 +41,12 @@ p {
   text-align: justify
 }
 
-#buffer {
-  height: 150px;
-}
 
 #photo {
   width: 30%;
   float:left;
   border-color: hsl(180, 80%, 25%);
-  border-width: 10px;
+  border-width: 5px;
   border-style: solid;
   border-radius: 10%;
   margin: 20px;
@@ -54,4 +63,3 @@ p {
       display: block;
       height: auto;
     }
-  }
