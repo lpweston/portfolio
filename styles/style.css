@@ -1,19 +1,21 @@
 body {
   background-color: black;
 }
-
 header {
   margin: -5px;
   padding: 15px;
   text-align: center;
   background-color: hsl(180, 20%, 60%);
 }
-
 h1{
     font-family: 'Lustria', serif;
     text-align: center;
 }
-
+h3{
+  font-size: 1em;
+  margin: 0px;
+  margin-top: 5px;
+}
 p {
   color: black;
   text-align: justify
@@ -32,11 +34,9 @@ p {
 #box_container {
   display: flex;
 }
-
 #box_container2 {
   display: flex;
 }
-
 #photo {
   width: 30%;
   float:left;
