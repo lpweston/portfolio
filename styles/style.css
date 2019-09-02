@@ -10,14 +10,20 @@ header {
   flex-direction: row;
   text-align: right;
 }
-header .title {
+.title {
   font-family: "Lustria", serif;
   display: flex;
   flex-direction: column;
-  vertical-align: bottom;
+  justify-content: space-between;
   margin-left: auto;
   padding-right: 10%;
 }
+
+.title-item {
+  margin: 5px;
+  margin-bottom: 20px;
+}
+
 h2 {
   text-align: center;
 }
@@ -26,12 +32,17 @@ h3 {
   margin: 0px;
   margin-top: 5px;
 }
-p {
-  text-align: justify;
+h4 {
+  vertical-align: bottom;
 }
 
 ul {
   padding-inline-start: 20px;
+}
+
+#box_container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -59,12 +70,6 @@ ul {
   flex-direction: column;
 }
 
-#box_container {
-  display: flex;
-  flex-grow: 1;
-  margin-top: 10px;
-}
-
 #photo {
   width: 20%;
   height: 20%;
@@ -77,27 +82,50 @@ ul {
   vertical-align: middle;
   margin-top: 20%;
 }
+#github,
+#linkedin,
+#twitter,
+#contact {
+  width: 30px;
+  padding: 5px;
+}
 
 #skills {
   background-color: #e77e34;
+  flex-basis: 15%;
+  flex-grow: 1;
 }
 
 #interests {
-  background-color: #66b9bf;
+  jjbackground-color: #66b9bf;
+  flex-basis: 15%;
+  flex-grow: 1;
 }
 
 #prof-summary {
   background-color: #99bfc2;
+  flex-basis: 55%;
+  flex-grow: 1;
 }
 
 #experience {
   background-color: #07889b;
   color: rgb(240, 240, 240);
+  flex-basis: 45%;
+  flex-grow: 2;
 }
 
 #education {
   background-color: #e77e34;
   color: rgb(240, 240, 240);
+  flex-basis: 45%;
+  flex-grow: 1;
+}
+
+#contact {
+  flex-basis: 45%;
+  text-align: center;
+  flex-grow: 1;
 }
 
 @media (max-width: 800px) {
