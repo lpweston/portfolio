@@ -40,16 +40,16 @@ ul {
   padding-inline-start: 20px;
 }
 
-#box_container {
+.Main #box_container {
   display: flex;
   flex-wrap: wrap;
 }
 
 .box {
   border-width: 5px;
-  border-radius: 2%;
+  border-radius: 4%;
   background-color: #eeaa7b;
-  padding: 10px;
+  padding: 20px;
   margin: 20px;
 }
 
@@ -97,7 +97,7 @@ ul {
 }
 
 #interests {
-  jjbackground-color: #66b9bf;
+  background-color: #66b9bf;
   flex-basis: 15%;
   flex-grow: 1;
 }
@@ -108,24 +108,27 @@ ul {
   flex-grow: 1;
 }
 
-#experience {
+.Experience {
   background-color: #07889b;
   color: rgb(240, 240, 240);
-  flex-basis: 45%;
+  flex-basis: 40%;
   flex-grow: 2;
+  list-style-type: none;
 }
 
-#education {
+.Education {
   background-color: #e77e34;
   color: rgb(240, 240, 240);
-  flex-basis: 45%;
+  flex-basis: 40%;
   flex-grow: 1;
+  list-style-type: none;
 }
 
 #contact {
   flex-basis: 45%;
   text-align: center;
   flex-grow: 1;
+  width: 95%;
 }
 
 @media (max-width: 800px) {

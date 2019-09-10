@@ -8,21 +8,33 @@ function Header() {
         src="./images/laura_weston.jpg"
         alt="Laura Weston Headshot"
       />
-      <div class="title">
-        <div class="title-item">
+      <div className="title">
+        <div className="title-item">
           <h1>Laura Weston</h1>
           <h4>Junior Scientific Software Developer</h4>
         </div>
-        <div class="title-item">
+        <div className="title-item">
           <nav>
-            <a href="https://twitter.com/Mivena" target="_blank">
+            <a
+              href="https://twitter.com/Mivena"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img id="twitter" src="images/twitter.png" alt="twitter" />
             </a>
 
-            <a href="https://www.linkedin.com/in/lwestonuk/" target="_blank">
+            <a
+              href="https://www.linkedin.com/in/lwestonuk/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img id="linkedin" src="images/linkedin.png" alt="linkedin" />
             </a>
-            <a href="https://github.com/lpweston" target="_blank">
+            <a
+              href="https://github.com/lpweston"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img id="github" src="images/GitHub.png" alt="GitHub" />
             </a>
             <a href="#contact">
