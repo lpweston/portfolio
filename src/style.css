@@ -40,14 +40,15 @@ ul {
   padding-inline-start: 20px;
 }
 
-.Main #box_container {
+.Main,
+#project-box {
   display: flex;
   flex-wrap: wrap;
 }
 
 .box {
   border-width: 5px;
-  border-radius: 4%;
+  border-radius: 5px;
   background-color: #eeaa7b;
   padding: 20px;
   margin: 20px;
@@ -85,9 +86,14 @@ ul {
 #github,
 #linkedin,
 #twitter,
-#contact {
+#contact-link {
   width: 30px;
   padding: 5px;
+}
+
+#projects {
+  flex-basis: 70%;
+  flex-grow: 2;
 }
 
 #skills {
@@ -104,7 +110,7 @@ ul {
 
 #prof-summary {
   background-color: #99bfc2;
-  flex-basis: 55%;
+  flex-basis: 50%;
   flex-grow: 1;
 }
 

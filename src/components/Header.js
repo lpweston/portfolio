@@ -5,7 +5,7 @@ function Header() {
     <header>
       <img
         id="photo"
-        src="./images/laura_weston.jpg"
+        src={require("../images/laura_weston.jpg")}
         alt="Laura Weston Headshot"
       />
       <div className="title">
@@ -13,35 +13,49 @@ function Header() {
           <h1>Laura Weston</h1>
           <h4>Junior Scientific Software Developer</h4>
         </div>
-        <div className="title-item">
-          <nav>
-            <a
-              href="https://twitter.com/Mivena"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img id="twitter" src="images/twitter.png" alt="twitter" />
-            </a>
+        <nav className="title-item">
+          <a
+            href="https://twitter.com/Mivena"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              id="twitter"
+              src={require("../images/twitter.png")}
+              alt="twitter"
+            />
+          </a>
 
-            <a
-              href="https://www.linkedin.com/in/lwestonuk/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img id="linkedin" src="images/linkedin.png" alt="linkedin" />
-            </a>
-            <a
-              href="https://github.com/lpweston"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img id="github" src="images/GitHub.png" alt="GitHub" />
-            </a>
-            <a href="#contact">
-              <img id="contact" src="images/email.png" alt="contact" />
-            </a>
-          </nav>
-        </div>
+          <a
+            href="https://www.linkedin.com/in/lwestonuk/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              id="linkedin"
+              src={require("../images/linkedin.png")}
+              alt="linkedin"
+            />
+          </a>
+          <a
+            href="https://github.com/lpweston"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              id="github"
+              src={require("../images/GitHub.png")}
+              alt="GitHub"
+            />
+          </a>
+          <a href="#contact">
+            <img
+              id="contact-link"
+              src={require("../images/email.png")}
+              alt="contact"
+            />
+          </a>
+        </nav>
       </div>
     </header>
   );

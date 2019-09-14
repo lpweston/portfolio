@@ -2,17 +2,17 @@ export const projects = [
   {
     name: "Northcoders News",
     url: "https://github.com/lpweston/nc-news",
-    image: "images/news.png"
+    image: require("../images/nc_news.png")
   },
   {
     name: "Northcoders Project",
     url: "https://github.com/lpweston",
-    image: "images/news.png"
+    image: "../images/news.png"
   },
   {
     name: "Text Adventure",
     url: "https://github.com/lpweston/game",
-    image: "images/news.png"
+    image: "../images/news.png"
   }
 ];
 
