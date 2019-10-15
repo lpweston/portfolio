@@ -11,6 +11,7 @@ const Projects = () => {
             <div className="bubble" id={project.name}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <img src={project.image} alt={project.name} width="100%" />
+                <h4>{project.name}</h4>
               </a>
             </div>
           );

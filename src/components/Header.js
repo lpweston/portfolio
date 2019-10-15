@@ -48,13 +48,6 @@ function Header() {
               alt="GitHub"
             />
           </a>
-          <a href="#contact">
-            <img
-              id="contact-link"
-              src={require("../images/email.png")}
-              alt="contact"
-            />
-          </a>
         </nav>
       </div>
     </header>

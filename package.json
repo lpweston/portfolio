@@ -1,6 +1,5 @@
 {
-  "homepage": "https://lpweston.github.io/portfolio",
-  "name": "portfolio",
+  "name": "lweston",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -6,7 +6,6 @@ import Interests from "./Interests";
 import Publications from "./Publications";
 import Experience from "./Experience";
 import Education from "./Education";
-import Contact from "./Contact";
 
 class Main extends React.Component {
   render() {
@@ -19,7 +18,6 @@ class Main extends React.Component {
         <Publications />
         <Experience />
         <Education />
-        <Contact />
       </main>
     );
   }

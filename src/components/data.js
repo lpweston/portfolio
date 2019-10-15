@@ -5,14 +5,14 @@ export const projects = [
     image: require("../images/nc_news.png")
   },
   {
-    name: "Northcoders Project",
-    url: "https://github.com/lpweston",
-    image: "../images/news.png"
+    name: "Pictuar Puzzle: AR puzzle game",
+    url: "https://github.com/lpweston/pictuar-puzzle",
+    image: require("../images/pirate.png")
   },
   {
-    name: "Text Adventure",
+    name: "Inhuman: sci-fi text adventure",
     url: "https://github.com/lpweston/game",
-    image: "../images/news.png"
+    image: require("../images/game.png")
   }
 ];
 
@@ -91,7 +91,7 @@ export const experience = [
 export const education = [
   {
     title: "Software Development Student",
-    institution: "Northcoders Manchester",
+    institution: "Northcoders, Manchester",
     dates: "2019"
   },
   {
