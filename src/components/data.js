@@ -6,8 +6,8 @@ export const projects = [
   },
   {
     name: "Pictuar Puzzle: AR puzzle game",
-    url: "https://github.com/lpweston/pictuar-puzzle",
-    image: require("../images/pirate.png")
+    url: "/pictuar-puzzle",
+    image: require("../images/pictuartitle.png")
   },
   {
     name: "Inhuman: sci-fi text adventure",
@@ -26,9 +26,9 @@ export const skills = [
 ];
 
 export const interests = [
+  "Attends Code and Stuff, a weekly coding community for women and non-binary people in Manchester.",
   "Hosts a fortnightly boardgame club",
   "Regularly plays roleplay games such as D&D and Traveller",
-  "Attends a weekly dance class: mixed latin, ballroom and squence",
   "Enjoys gardening, when the weather permits"
 ];
 

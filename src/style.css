@@ -20,8 +20,9 @@ header {
 }
 
 a {
-  color: black;
+  /* color: black; */
   text-decoration: none;
+  vertical-align: middle;
 }
 
 .title-item {
@@ -65,12 +66,13 @@ ul {
   width: 120px;
   border-radius: 50%;
   padding: 30px;
-  padding-top: 10px;
   margin: 10px;
-  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  vertical-align: middle;
+}
+img {
   vertical-align: middle;
 }
 
@@ -113,7 +115,8 @@ ul {
   flex-grow: 1;
 }
 
-#interests {
+#interests,
+#pic-lists {
   background-color: #66b9bf;
   flex-basis: 15%;
   flex-grow: 1;
@@ -125,7 +128,8 @@ ul {
   flex-grow: 1;
 }
 
-.Experience {
+.Experience,
+#pic-info {
   background-color: #07889b;
   color: rgb(240, 240, 240);
   flex-basis: 40%;
@@ -133,7 +137,8 @@ ul {
   list-style-type: none;
 }
 
-.Education {
+.Education,
+#pic-vid {
   background-color: #e77e34;
   color: rgb(240, 240, 240);
   flex-basis: 40%;
@@ -141,7 +146,7 @@ ul {
   list-style-type: none;
 }
 
-#contact {
+#pic-img {
   flex-basis: 45%;
   text-align: center;
   flex-grow: 1;
