@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "@reach/router";
 
 function Header() {
   return (
@@ -10,7 +11,9 @@ function Header() {
       />
       <div className="title">
         <div className="title-item">
-          <h1>Laura Weston</h1>
+          <h1>
+            <Link to="/">Laura Weston</Link>
+          </h1>
           <h4>Junior Scientific Software Developer</h4>
         </div>
         <nav className="title-item">

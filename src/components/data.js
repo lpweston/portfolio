@@ -1,7 +1,7 @@
 export const projects = [
   {
     name: "Northcoders News",
-    url: "https://github.com/lpweston/nc-news",
+    url: "/nc-news",
     image: require("../images/nc_news.png")
   },
   {
@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     name: "Inhuman: sci-fi text adventure",
-    url: "https://github.com/lpweston/game",
+    url: "/game",
     image: require("../images/game.png")
   }
 ];
