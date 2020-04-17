@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "./data";
+import { projects } from "./api/data";
 import { Link } from "@reach/router";
 
 const Projects = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import { interests } from "./data";
+import { interests } from "./api/data";
 
 const Interests = () => {
   return (

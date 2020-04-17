@@ -5,7 +5,7 @@ const ProfSummery = () => {
     <div id="prof-summary" className="box">
       <h2>Professional Summary</h2>
       <p>
-        Junior software developer, with significant STEM experience. Laura is a
+        Junior software engineer and Waters. Laura is a
         Computational Chemistry PhD graduate, with experience working as a
         product development chemist.
       </p>

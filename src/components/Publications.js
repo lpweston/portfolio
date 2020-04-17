@@ -1,5 +1,5 @@
 import React from "react";
-import { publications } from "./data";
+import { publications } from "./api/data";
 
 const Publications = () => {
   return (

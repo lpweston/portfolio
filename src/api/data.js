@@ -17,12 +17,15 @@ export const projects = [
 ];
 
 export const skills = [
-  "JavaScript",
-  "Python",
-  "Fortran",
-  "SQL",
-  "HTML/CSS",
-  "React"
+  "Angular - Expert",
+  "JavaScript - Expert",
+  "TypeScript - Expert",
+  "C# - Intermediate",
+  "HTML/CSS - Intermediate",
+  "React - Intermediate",
+  "Python - Beginner",
+  "Fortran - Beginner",
+  "SQL - Beginner",
 ];
 
 export const interests = [
@@ -60,6 +63,13 @@ export const publications = [
 ];
 
 export const experience = [
+  {
+    title: "Junior Software Engineer",
+    company: "Waters",
+    dates: "2019 - present",
+    location: "Wilmslow Cheshire",
+    description: "Working on waters_connect, new suite of integrated web based applications used to run Waters Mass Spectroscopy and Liquid Chromatography systems."
+  },
   {
     title: "Product Development Chemist",
     company: "Actikem Ltd",
