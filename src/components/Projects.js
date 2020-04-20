@@ -1,5 +1,5 @@
 import React from "react";
-import { projects } from "./api/data";
+import { projects } from "../api/data";
 import { Link } from "@reach/router";
 
 const Projects = () => {
@@ -7,7 +7,7 @@ const Projects = () => {
     <div className="box" id="projects">
       <h2>Projects</h2>
       <div id="project-box">
-        {projects.map(project => {
+        {projects.map((project) => {
           return (
             <div className="bubble" id={project.name}>
               <Link to={project.url} target="_blank" rel="noopener noreferrer">

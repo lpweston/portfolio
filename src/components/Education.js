@@ -1,11 +1,11 @@
 import React from "react";
-import { education } from "./api/data";
+import { education } from "../api/data";
 
 const Education = () => {
   return (
     <ul key="Education" className="box Education">
       <h2>Education</h2>
-      {education.map(edu => {
+      {education.map((edu) => {
         return (
           <li key={edu.institution}>
             <h3>{edu.title}</h3>
@@ -14,7 +14,7 @@ const Education = () => {
             </p>
             {edu.description && (
               <ul>
-                {edu.description.map(point => {
+                {edu.description.map((point) => {
                   return <li>{point}</li>;
                 })}
                 <br />

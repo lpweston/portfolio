@@ -1,11 +1,11 @@
 import React from "react";
-import { experience } from "./api/data";
+import { experience } from "../api/data";
 
 const Experience = () => {
   return (
     <ul key="Experience" className="box Experience">
       <h2>Experience</h2>
-      {experience.map(job => {
+      {experience.map((job) => {
         return (
           <li key={job.company}>
             <h3>{job.title}</h3>

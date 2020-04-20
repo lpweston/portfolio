@@ -1,12 +1,12 @@
 import React from "react";
-import { publications } from "./api/data";
+import { publications } from "../api/data";
 
 const Publications = () => {
   return (
     <div id="publications" className="box">
       <h2>Publications</h2>
       <ul>
-        {publications.map(pub => {
+        {publications.map((pub) => {
           return (
             <li>
               <h3>{pub.name}</h3>

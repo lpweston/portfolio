@@ -2,18 +2,21 @@ export const projects = [
   {
     name: "Northcoders News",
     url: "/nc-news",
-    image: require("../images/nc_news.png")
+    image: require("../images/nc_news.png"),
+    technologies: ["React", "JavaScript", "NodeJS"],
   },
   {
     name: "Pictuar Puzzle: AR puzzle game",
     url: "/pictuar-puzzle",
-    image: require("../images/pictuartitle.png")
+    image: require("../images/pictuartitle.png"),
+    technologies: ["ReactNative", "JavaScript", "Python"],
   },
   {
     name: "Inhuman: sci-fi text adventure",
     url: "/game",
-    image: require("../images/game.png")
-  }
+    image: require("../images/game.png"),
+    technologies: ["Javascript", "React"],
+  },
 ];
 
 export const skills = [
@@ -32,7 +35,7 @@ export const interests = [
   "Attends Code and Stuff, a weekly coding community for women and non-binary people in Manchester.",
   "Hosts a fortnightly boardgame club",
   "Regularly plays roleplay games such as D&D and Traveller",
-  "Enjoys gardening, when the weather permits"
+  "Enjoys gardening, when the weather permits",
 ];
 
 export const publications = [
@@ -42,7 +45,7 @@ export const publications = [
     date: "Dec 2016",
     location: "University of Manchester",
     url:
-      "https://www.research.manchester.ac.uk/portal/en/theses/computational-characterisation-of-organic-molecules-for-electronic-applications-and-an-experimental-study-of-cocrystals-for-electronic-devices(0d1a24ea-3241-40cf-bafa-6be179ba4c26).html"
+      "https://www.research.manchester.ac.uk/portal/en/theses/computational-characterisation-of-organic-molecules-for-electronic-applications-and-an-experimental-study-of-cocrystals-for-electronic-devices(0d1a24ea-3241-40cf-bafa-6be179ba4c26).html",
   },
   {
     name:
@@ -50,7 +53,7 @@ export const publications = [
     date: "Mar 2016",
     location: "University of Manchester",
     url:
-      "https://pubs.rsc.org/is/content/articlelanding/2016/dt/c6dt01035k#!divAbstract"
+      "https://pubs.rsc.org/is/content/articlelanding/2016/dt/c6dt01035k#!divAbstract",
   },
   {
     name:
@@ -58,8 +61,8 @@ export const publications = [
     date: "Feb 2015",
     location: "University of Manchester",
     url:
-      "https://pubs.rsc.org/en/content/articlelanding/2014/CC/C4CC10132D#!divAbstract"
-  }
+      "https://pubs.rsc.org/en/content/articlelanding/2014/CC/C4CC10132D#!divAbstract",
+  },
 ];
 
 export const experience = [
@@ -68,7 +71,8 @@ export const experience = [
     company: "Waters",
     dates: "2019 - present",
     location: "Wilmslow Cheshire",
-    description: "Working on waters_connect, new suite of integrated web based applications used to run Waters Mass Spectroscopy and Liquid Chromatography systems."
+    description:
+      "Working on waters_connect, new suite of integrated web based applications used to run Waters Mass Spectroscopy and Liquid Chromatography systems.",
   },
   {
     title: "Product Development Chemist",
@@ -76,33 +80,33 @@ export const experience = [
     dates: "2017 - 2019",
     location: "Warrington, United Kingdom",
     description:
-      "Reporting to the Managing Director, managed projects to develop Actikem's existing range and develop new products/services. Since taking over enquiries the number of new enquiries turning into orders increased from 12% to 20%, by streamlining and codfying the process. Developed new range of Actikem phosphate esters, working with  marketing and supply chain departments."
+      "Reporting to the Managing Director, managed projects to develop Actikem's existing range and develop new products/services. Since taking over enquiries the number of new enquiries turning into orders increased from 12% to 20%, by streamlining and codfying the process. Developed new range of Actikem phosphate esters, working with  marketing and supply chain departments.",
   },
   {
     title: "Development Technician",
     company: "Lubrizol",
     dates: "2017",
-    location: "Manchester, United Kingdom"
+    location: "Manchester, United Kingdom",
   },
   {
     title: "Laboratory Demonstrator",
     company: "University of Manchester",
     dates: "2013-2015",
-    location: "Manchester, United Kingdom"
+    location: "Manchester, United Kingdom",
   },
   {
     title: "Laboratory Assistant",
     company: "BioFocus",
     dates: "2010-2012",
-    location: "Manchester, United Kingdom"
-  }
+    location: "Manchester, United Kingdom",
+  },
 ];
 
 export const education = [
   {
-    title: "Software Development Student",
+    title: "Software Development Trainee",
     institution: "Northcoders, Manchester",
-    dates: "2019"
+    dates: "2019",
   },
   {
     title: "Doctor of Philosophy: Computational Chemistry",
@@ -113,12 +117,12 @@ export const education = [
       "Developed method to predict the formation of cocrystals between organic molecules, using DFT and energy decomposition analysis.Backed up with crystallography study.",
       "During industrial placement at Merck, created organic semiconductors from cocrystal pairs and found cocrystal pair which outperformed crystals made from constituent parts.",
       "Explained a close interaction between two metal ions, using energy decomposition analysis code with QM methods.",
-      "Developed program in Python to generate UV - Vis spectra from TD - DFT results, breaking down UV - Vis peaks into constituent excited states to assist visualisation"
-    ]
+      "Developed program in Python to generate UV - Vis spectra from TD - DFT results, breaking down UV - Vis peaks into constituent excited states to assist visualisation",
+    ],
   },
   {
     title: "Bachelor of Science: Astrophysics and Chemistry",
     institution: "Keele University",
-    dates: "2007-2010"
-  }
+    dates: "2007-2010",
+  },
 ];
