@@ -14,8 +14,8 @@ const Education = () => {
             </p>
             {edu.description && (
               <ul>
-                {edu.description.map((point) => {
-                  return <li>{point}</li>;
+                {edu.description.map((point, i) => {
+                  return <li key={i}>{point}</li>;
                 })}
                 <br />
               </ul>
