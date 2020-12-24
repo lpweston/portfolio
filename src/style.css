@@ -78,6 +78,7 @@ ul {
   text-align: center;
   vertical-align: middle;
 }
+
 img {
   vertical-align: middle;
 }
@@ -107,14 +108,41 @@ img {
 }
 
 #projects {
-  flex-basis: 70%;
+  background-color: #e29965;
+  flex-basis: 40%;
   flex-grow: 2;
 }
 
 #skills {
-  background-color: #e77e34;
-  flex-basis: 15%;
+  flex-basis: 40%;
   flex-grow: 1;
+}
+
+#skill-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill-item{
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #e77e34;
+  height: 60px;
+  border-radius: 5%;
+  padding: 10px 20px;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.skill-row{
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  vertical-align: middle;
 }
 
 #publications {
