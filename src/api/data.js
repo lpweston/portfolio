@@ -12,6 +12,12 @@ export const projects = [
     technologies: ["ReactNative", "JavaScript", "Python"],
   },
   {
+    name:"A Journey Begins",
+    url: "/unity",
+    image: require("../images/boot.png"),
+    technologies: ["C#", "Unity"],
+  },
+  {
     name: "Inhuman: sci-fi text adventure",
     url: "/game",
     image: require("../images/game.png"),
@@ -173,17 +179,6 @@ export const skills = [
     "percentile": 43,
     "level": "proficient",
     "dateCompleted": "2020-12-21T14:54:47.195+00:00",
-    "status": "live"
-  },
-  {
-    "id": "aef2a175-f1a8-45da-bf72-f3e68e3e2625",
-    "title": "Flask",
-    "url": "flask",
-    "thumbnailUrl": "https://pluralsight2.imgix.net/assessments/images/icons/no-logo-jAtNDcyYi00ZWJ.png",
-    "score": 102,
-    "percentile": 21,
-    "level": "proficient",
-    "dateCompleted": "2020-01-15T14:28:33.851+00:00",
     "status": "live"
   }
 ];

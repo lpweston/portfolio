@@ -5,6 +5,7 @@ import { Router } from "@reach/router";
 import Pictuar from "./components/pictuar";
 import NCNews from "./components/NCNews";
 import Inhuman from "./components/Inhuman";
+import AJourneyBegins from "./components/AJourneyBegins";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Pictuar path="/pictuar-puzzle" />
         <NCNews path="/nc-news" />
         <Inhuman path="/game" />
+        <AJourneyBegins path="/unity"/>
       </Router>
     </div>
   );

@@ -191,6 +191,16 @@ img {
   width: 95%;
 }
 
+#unity-info{
+  flex-basis: 10%;
+  flex-grow: 1;
+}
+
+#unity-game{
+  width: 70%;
+  height: 700px;
+}
+
 @media (max-width: 800px) {
   p {
     font-size: 10px;
